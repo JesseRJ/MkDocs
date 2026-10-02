@@ -1,0 +1,60 @@
+site_name: My Docs
+site_url: https://sitename.example
+theme:
+  name: material
+  font:
+    text: Montserrat
+    code: JetBrains Mono
+  # logo: assets\Momo_staring.webp
+  # favicon: assets\file.png
+  features:
+    - navigation.footer
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+nav:
+  - Home: index.md
+  - Projects:
+    # - About: Projects.md
+    - Studie:
+      - Dark Tech: 
+        - About: Dark Tech/DarkTech.md
+        - Design Document: Dark Tech/DesignDocument.md
+    # - Free Time:
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+extra:
+  copyright: Copyright &copy;
