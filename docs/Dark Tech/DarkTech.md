@@ -9,8 +9,3 @@ The project was done in a group of 5 students and the subject my group had was t
 ## Contents
 
 In this section it shows the design document and the project itself as wel as foto's that where made during the mid and final presentation of the project.
-
-- [Design document](/Dark%20Tech/DesignDocument)
-- [Contribution](/Dark%20Tech/Contribution)
-- [Presentations](/Dark%20Tech/Presentations)
-- [Grade](/Dark%20Tech/Grade)
