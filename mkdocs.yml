@@ -37,6 +37,8 @@ nav:
       - Dark Tech: 
         - About: Dark Tech/DarkTech.md
         - Design Document: Dark Tech/DesignDocument.md
+        - Analysis:
+          - Ethical Analysis v1.0: Dark Tech/Analysis/Uninhabitability.md
     # - Free Time:
 
 markdown_extensions:
