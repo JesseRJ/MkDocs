@@ -8,4 +8,4 @@ The project was done in a group of 5 students and the subject my group had was t
 
 ## Contents
 
-In this section it shows the design document and the project itself as wel as foto's that where made during the mid and final presentation of the project.
+On this page the process of the project Dark Tech can be found. The [DevLog](./DevLog/Sprint1.md) gives an overview of all the events and my work during this project, reflections on the work and the final delivered provocatype.
